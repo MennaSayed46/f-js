@@ -1,0 +1,422 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.navbar-brand {
+    font-family: "Montserrat", sans-serif;
+    color: white !important;
+    line-height: 26px;
+    font-weight: 800;
+    font-size: 18px;
+}
+.navbar ul li a {
+    font-family: "Poppins", sans-serif;
+    color: white !important;
+    font-weight: 500 !important;  
+}
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: white;
+}
+.navbar ul li a:hover {
+    border-bottom: black solid 2px  !important ; 
+}
+.home-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imgs/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.details {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+.f-line {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    line-height: 55px;
+    font-weight: 800;
+    font-size: 50px;
+}
+.sec-line {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    line-height: 72px;
+    font-weight: 200;
+    font-size: 60px;
+}
+.sec-line span {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    line-height: 72px;
+    font-weight: 400;
+    font-size: 60px;
+}
+.fa-brands {
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+.about-me {
+    font-family: "Montserrat", sans-serif;
+    color: #343434;
+    line-height: 33px;
+    font-weight: 800;
+    font-size: 30px;
+}
+.ui-ux {
+    font-family: "Poppins", sans-serif;
+    color: #999999;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.jerry {
+    font-family: "Poppins", sans-serif;
+    color: #748182;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.jerry span {
+    font-family: "Poppins", sans-serif;
+    color: #748182;
+    line-height: 24px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.progress,
+.progress-stacked {
+    height: 25px;
+}
+.progress {
+    margin-bottom: 30px;
+}
+.progress-bar {
+    background-color: black !important;
+}
+.rate {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.f-button {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    line-height: 19px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.f-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.sec-button {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    line-height: 19px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.sec-button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+#services {
+    background-color: #f7f7f7;
+    margin-block: 50px;
+    padding-block: 50px;
+}
+.service-box {
+    background-color: #ffffff;
+    padding-block: 40px;
+}
+.service-box i {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: black;
+    background-color: #f7f7f7;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.service-box:hover i {
+    background-color: black;
+    color: #f7f7f7;
+}
+.services {
+    font-family: "Montserrat", sans-serif;
+    color: #343434;
+    line-height: 44px;
+    font-weight: 900;
+    font-size: 40px;
+    padding-block: 50px;
+}
+.title {
+    font-family: "Montserrat", sans-serif;
+    color: #343434;
+    line-height: 20px;
+    font-weight: 800;
+    font-size: 18px;
+}
+.lorem {
+    font-family: "Montserrat", sans-serif;
+    color: #748182;
+    line-height: 22px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.hover-portfolio-box {
+    visibility: hidden;
+    position: relative;
+}
+.portfolio-box:hover .hover-portfolio-box {
+    visibility: visible;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+    background-color: white;
+}
+.details-hover {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.title-portfolio {
+    font-family: "Montserrat", sans-serif;
+    color: #343434;
+    line-height: 16px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.icones i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.icones i:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+.porfolio {
+    font-family: "Montserrat", sans-serif;
+    color: #343434;
+    line-height: 44px;
+    font-weight: 900;
+    font-size: 40px;
+    margin-block: 50px;
+}
+.nav-link,
+.nav-link:hover {
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    line-height: 23px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.slide {
+    margin-inline: 50px;
+}
+.slide img {
+    width: 100px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+.f-sentance {
+
+    font-family: "Poppins", sans-serif;
+    color: #748182;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.name {
+    font-family: "Montserrat", sans-serif;
+    color: #343434;
+    line-height: 18px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.customer {
+    font-family: "Poppins", sans-serif;
+    color: #888888;
+    line-height: 17px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.clients {
+    background-color: #f7f7f7;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #859791;
+}
+
+.adjective {
+    font-family: "Poppins", sans-serif;
+    color: #748182;
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.number {
+    font-family: "Montserrat", sans-serif;
+    color: #343434;
+    line-height: 33px;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+.total {
+    background-color: white;
+    padding: 30px;
+    margin-inline: auto;
+}
+.card-hover {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    visibility: hidden;
+    background-color: rgba(255, 255, 255,0.9);
+}
+.icones-card {
+    position: absolute;
+    top: 50%;
+    left: 20%;  
+}
+#team{
+    background-color: #f7f7f7;
+   padding-inline: 50px;
+   padding-bottom: 50px;
+}
+.icones-card i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    margin-right: 10px;
+}
+.card:hover .card-hover {
+    visibility: visible;
+    transition: all 0.65s ;
+    transform:rotate(360deg);
+}
+.icones-card i:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+.cardname {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    line-height: 28px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.cardjob {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    line-height: 22px;
+    font-weight: 700;
+    font-size: 20px; 
+}
+.card-body{
+    background-color: #5b5b5b;
+}
+#contact{
+    margin-inline: 50px;
+    padding-inline: 50px;
+}
+#contact .row {
+    margin-inline: 100px;
+}
+.contact-box i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #343434;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 15px;
+}
+.contact-box:hover i {
+    color: white;
+    background-color: black;
+}
+.contactname{
+    font-family: "Montserrat", sans-serif;
+    color: #343434;
+    line-height: 18px;
+    font-weight: 700;
+    font-size: 16px; 
+}
+.contactdetails{
+    font-family: "Poppins", sans-serif;
+    color: #748182;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 15px;
+}
+input,textarea {
+    background-color: #f4f4f4;
+    border-color: #f4f4f4;
+}
+#contact .btn {
+    color: white;
+    background-color: black !important;
+    padding-block: 8px;
+    padding-inline: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#contact .btn:hover {
+    color: black;
+    background-color: white !important;
+    border: 1px black solid;
+}
+.copyrights p {
+    color: #748182;
+    padding-block: 30px;  
+}
